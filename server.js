@@ -45,7 +45,7 @@ next();
 
 
 
-app.get('/home',(req,res) => {
+app.get('/',(req,res) => {
 
   // res.send("<h1>Hello Express!!</h1>");
 // res.send({
